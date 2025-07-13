@@ -58,13 +58,13 @@ const BookmarkForm = ({ bookmark, onSave, onCancel }) => {
               </span>
             </label>
             <input
-              type="text"
-              value={formData.title}
-              onChange={(e) => setFormData({ ...formData, title: e.target.value })}
-              placeholder="Enter bookmark title"
-              required
-              className="w-full px-4 py-3 border border-neutral-300 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-200 bg-white/70 backdrop-blur-sm hover:bg-white/90"
-            />
+  type="text"
+  value={formData.title}
+  onChange={(e) => setFormData({ ...formData, title: e.target.value })}
+  placeholder="(Optional) Leave blank to auto-generate"
+  className="w-full px-4 py-3 border border-neutral-300 rounded-xl focus:ring-2 focus:ring-primary focus:border-transparent transition-all duration-200 bg-white/70 backdrop-blur-sm hover:bg-white/90"
+/>
+
           </div>
 
           <div>
