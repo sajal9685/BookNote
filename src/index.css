@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #BA487F;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
