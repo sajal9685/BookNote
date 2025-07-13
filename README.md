@@ -7,7 +7,7 @@ A full-stack web application that allows users to create, manage, and organize n
 
 ## 🔗 Live Demo
 
-🌐 Frontend: [https://booknote.vercel.app](https://booknote.vercel.app)  
+🌐 Frontend: [https://booknote.vercel.app](https://book-note-seven.vercel.app/)  
 ⚙️ Backend: [https://booknote-server.onrender.com](https://booknote-server.onrender.com)
 
 ---
